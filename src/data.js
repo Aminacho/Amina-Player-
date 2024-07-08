@@ -37,4 +37,9 @@ export const data = [
     hand: "L",
     age: 32,
   },
+  {
+    playerName: "RIZZI Giulia",
+
+    rank: 5,
+  },
 ];

@@ -1,5 +1,5 @@
 import "./App.css";
-import Players from "./components/Players";
+
 import PlayersListe from "./components/PlayersListe";
 
 function App() {
@@ -9,7 +9,9 @@ function App() {
         <i> 🤺 Amina's Player App ⚔️ </i>
       </h1>
       <div className="body">
-        <PlayersListe />
+        <PlayersListe>
+          <h2> Classements </h2>
+        </PlayersListe>
       </div>
     </div>
   );
